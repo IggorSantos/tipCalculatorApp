@@ -1,0 +1,25 @@
+:root{
+  --backgroundColor: hsl(185, 41%, 84%)
+  }
+
+*{
+      margin: 0;
+
+      padding: 0;
+
+      box-sizing: border-box;
+}
+body{
+  background-color: var(--backgroundColor);
+}
+header{
+  display: flex;
+  justify-content: center;
+  padding: 5%;
+}
+main .container{
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  margin: 10% 25%;
+}
