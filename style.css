@@ -22,15 +22,26 @@ main .container{
   background-color: white;
   display: flex;
   flex-direction: row;
-  margin: 2% 25%;
+  justify-content: space-between;
+  margin: 2% 20%;
   padding: 2% 2%;
   border-radius: 10%;
+}
+main .tips{
+
 }
 main .tips button{
   font-size: 24px;
   background-color: var(--screen-color);
+  width: 60px;
   color: white;
-  padding: 2% 5%;
+  padding: 2% 1%;
+  border-radius: 15%;
+}
+
+main .tips input{
+  width: 50px;
+  height: 45px;
   border-radius: 15%;
 }
 
