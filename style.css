@@ -49,6 +49,7 @@ main .tips{
 main .buttons-tips{
   display: flex;
   flex-direction: column;
+  margin-top: 5%;
 }
 main .tips button{
   font-size: 20px;
