@@ -1,6 +1,7 @@
 :root{
   --backgroundColor: hsl(185, 41%, 84%);
   --screen-color: hsl(183, 100%, 15%);
+  --green-color: hsl(172, 67%, 45%);
   }
 
 *{
@@ -27,15 +28,30 @@ main .container{
   padding: 2% 2%;
   border-radius: 10%;
 }
-main .tips label{
-  margin-top: 10%;
+main .conta input{
+  width: 225px;
+  height: 30px;
+  border-radius: 5%;
+  border: 1px solid var(--green-color);
+  margin-top: 2%;
 }
+main .pessoas input{
+  width: 225px;
+  height: 30px;
+  border-radius: 5%;
+  border: 1px solid var(--green-color);
+  margin-top: 2%;
+}
+main .tips{
+  margin: 15% 0;
+}
+
 main .buttons-tips{
   display: flex;
   flex-direction: column;
 }
 main .tips button{
-  font-size: 24px;
+  font-size: 20px;
   background-color: var(--screen-color);
   width: 70px;
   color: white;
@@ -45,9 +61,9 @@ main .tips button{
 
 main .tips input{
   width: 70px;
-  height: 35px;
+  height: 30px;
   border-radius: 10%;
-  border: 1px solid green;
+  border: 1px solid var(--green-color);
 }
 
 
