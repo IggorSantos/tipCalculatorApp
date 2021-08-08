@@ -27,22 +27,27 @@ main .container{
   padding: 2% 2%;
   border-radius: 10%;
 }
-main .tips{
-
+main .tips label{
+  margin-top: 10%;
+}
+main .buttons-tips{
+  display: flex;
+  flex-direction: column;
 }
 main .tips button{
   font-size: 24px;
   background-color: var(--screen-color);
-  width: 60px;
+  width: 70px;
   color: white;
   padding: 2% 1%;
   border-radius: 15%;
 }
 
 main .tips input{
-  width: 50px;
-  height: 45px;
-  border-radius: 15%;
+  width: 70px;
+  height: 35px;
+  border-radius: 10%;
+  border: 1px solid green;
 }
 
 
