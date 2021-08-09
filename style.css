@@ -61,7 +61,7 @@ main .tips button{
 
 main .tips input{
   width: 70px;
-  height: 30px;
+  height: 35px;
   border-radius: 10%;
   border: 1px solid var(--green-color);
 }
@@ -72,4 +72,11 @@ main .calculator{
 }
 main .screen{
   background-color: var(--screen-color);
+}
+main .screen .gorjeta{
+  display: flex;
+  flex-direction: row;
+}
+main .screen p,span{
+  color: white;
 }
