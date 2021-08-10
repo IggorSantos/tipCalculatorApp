@@ -72,11 +72,37 @@ main .calculator{
 }
 main .screen{
   background-color: var(--screen-color);
+  display: flex;
+  flex-direction: column;
 }
-main .screen .gorjeta{
+main .screen .totalGorjeta{
   display: flex;
   flex-direction: row;
+  margin-bottom: 10%;
+
+}
+main .screen .totalConta{
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 20%;
+
 }
 main .screen p,span{
   color: white;
+  margin-left: 5%;
+}
+main .screen p{
+  font-size: 15px;
+}
+main .screen span{
+  font-size: 25px;
+  color: var(--green-color);
+}
+main .screen button{
+  width: 200px;
+  height: 30px;
+  background-color: var(--green-color);
+  border: 1px solid var(--green-color);
+  border-radius: 5%;
+  margin-left: 20%;
 }
