@@ -23,19 +23,19 @@ main .container{
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  margin: 2% 20%;
+  margin: 2% 25%;
   padding: 2% 2%;
   border-radius: 10%;
 }
 main .conta input{
-  width: 225px;
+  width: 90%;
   height: 30px;
   border-radius: 5%;
   border: 1px solid var(--green-color);
   margin-top: 2%;
 }
 main .pessoas input{
-  width: 225px;
+  width: 90%;
   height: 30px;
   border-radius: 5%;
   border: 1px solid var(--green-color);
@@ -53,14 +53,15 @@ main .buttons-tips{
 main .tips button{
   font: 20px 'Space Mono', monospace;
   background-color: var(--screen-color);
-  width: 70px;
+  width: 30%;
   color: white;
   padding: 2% 1%;
   border-radius: 15%;
+  cursor: pointer;
 }
 
 main .tips input{
-  width: 70px;
+  width: 30%;
   height: 35px;
   border-radius: 10%;
   border: 1px solid var(--green-color);
@@ -74,6 +75,7 @@ main .screen{
   background-color: var(--screen-color);
   display: flex;
   flex-direction: column;
+  border-radius: 5%;
 }
 main .screen .totalGorjeta{
   display: flex;
@@ -99,10 +101,11 @@ main .screen span{
   color: var(--green-color);
 }
 main .screen button{
-  width: 200px;
+  width: 60%;
   height: 30px;
   background-color: var(--green-color);
   border: 1px solid var(--green-color);
   border-radius: 5%;
   margin-left: 20%;
+  cursor: pointer;
 }
