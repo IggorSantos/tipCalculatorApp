@@ -1,5 +1,6 @@
 # Frontend Mentor - Calculadora de gorjeta
 Desafio do site Frontend Mentor: https://www.frontendmentor.io/solutions
+<img src="/images/desktop-design-completed.jpg">
 
 ### Desafio
 
