@@ -1,5 +1,5 @@
 # Frontend Mentor - Calculadora de gorjeta
-Desafio do site frontend Mentor
+Desafio do site Frontend Mentor: https://www.frontendmentor.io/solutions
 
 ### Desafio
 
