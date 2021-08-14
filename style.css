@@ -67,10 +67,6 @@ main .tips input{
   border: 1px solid var(--green-color);
 }
 
-
-main .calculator{
-
-}
 main .screen{
   background-color: var(--screen-color);
   display: flex;
@@ -108,4 +104,20 @@ main .screen button{
   border-radius: 5%;
   margin-left: 20%;
   cursor: pointer;
+}
+
+@media screen and (max-width: 375px){
+  main .container{
+    display: flex;
+    flex-direction: column;
+    margin: 2% 0;
+    padding-top: 10%;
+  }
+  main .screen{
+    margin-top: 10%;
+  }
+  main .screen button{
+    margin-bottom: 5%;
+  }
+
 }
