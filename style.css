@@ -65,6 +65,7 @@ main .tips input{
   height: 35px;
   border-radius: 10%;
   border: 1px solid var(--green-color);
+
 }
 
 main .screen{
@@ -96,6 +97,7 @@ main .screen span{
   font-size: 25px;
   color: var(--green-color);
 }
+
 main .screen button{
   width: 60%;
   height: 30px;
