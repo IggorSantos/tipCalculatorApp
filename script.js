@@ -1,8 +1,9 @@
+//Primeiro coisa é pegar o total da conta que o usuario digitou e somar com a gorjeta
 function inserirGorjeta(num){
-  let conta = document.getElementById('conta');
-  let pessoas = document.getElementById('pessoas');
-  let a = Number(conta.value)
+  let conta = Number(document.getElementById('conta').value);
+  let pessoas = Number(document.getElementById('pessoas').value);
+  conta += conta * (num/100)
   let res = document.getElementById('resGorjeta')
-  res.innerHTML = num;
+  res.innerHTML = conta;
 
 }
