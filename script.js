@@ -2,9 +2,14 @@
 function inserirGorjeta(num){
   let conta = Number(document.getElementById('conta').value);
   let pessoas = Number(document.getElementById('pessoas').value);
-  conta += conta * (num/100)
-  let valorPessoa = conta / pessoas
-  let res = document.getElementById('resConta')
-  res.innerHTML = valorPessoa.toFixed(2);
+  let valorGorjeta = conta * (num/100)
+  conta += valorGorjeta;
+  let valorPessoa = conta / pessoas;
+  let gorjetaPessoa = valorGorjeta / pessoas;
+  let resConta = document.getElementById('resConta')
+  let resGorjeta = document.getElementById('resGorjeta')
+  resConta.innerHTML = valorPessoa.toFixed(2);
+  resGorjeta.innerHTML = gorjetaPessoa.toFixed(2);
+
 
 }
