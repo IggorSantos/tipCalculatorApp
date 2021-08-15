@@ -1,4 +1,4 @@
-//Primeiro coisa é pegar o total da conta que o usuario digitou e somar com a gorjeta
+//Pegar o valor customizado e resetar os valores quando clicar em resetar
 function inserirGorjeta(num){
   let conta = Number(document.getElementById('conta').value);
   let pessoas = Number(document.getElementById('pessoas').value);
