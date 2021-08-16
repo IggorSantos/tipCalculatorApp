@@ -2,6 +2,7 @@
   --backgroundColor: hsl(185, 41%, 84%);
   --screen-color: hsl(183, 100%, 15%);
   --green-color: hsl(172, 67%, 45%);
+  --white-color: hsl(0, 0%, 100%);
   }
 
 *{
@@ -19,7 +20,7 @@ header{
   padding: 5%;
 }
 main .container{
-  background-color: white;
+  background-color: var(--white-color);
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -58,7 +59,7 @@ main .tips button{
   font: 20px 'Space Mono', monospace;
   background-color: var(--screen-color);
   width: 30%;
-  color: white;
+  color: var(--white-color);
   padding: 2% 1%;
   border-radius: 15%;
   cursor: pointer;
@@ -90,7 +91,7 @@ main .screen .totalConta{
 
 }
 main .screen p,span{
-  color: white;
+  color: var(--white-color);
   margin-left: 5%;
 }
 main .screen p{
