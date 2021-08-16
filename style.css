@@ -27,6 +27,10 @@ main .container{
   padding: 2% 2%;
   border-radius: 10%;
 }
+main .container button:hover{
+  background-color: hsl(185, 41%, 84%);
+  color: var(--screen-color);
+}
 main .conta input{
   width: 90%;
   height: 30px;
