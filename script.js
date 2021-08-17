@@ -1,4 +1,6 @@
 //Pegar o valor customizado e resetar os valores quando clicar em resetar
+document.getElementById('gorjeta').addEventListener("keypress",inserirGorgetakeydown);
+
 function inserirGorjeta(num){
   let conta = Number(document.getElementById('conta').value);
   let pessoas = Number(document.getElementById('pessoas').value);
@@ -10,6 +12,11 @@ function inserirGorjeta(num){
   let resGorjeta = document.getElementById('resGorjeta')
   resConta.innerHTML = valorPessoa.toFixed(2);
   resGorjeta.innerHTML = gorjetaPessoa.toFixed(2);
+}
 
-
+function inserirGorgetakeydown(){
+  if(event.key === "Enter"){
+    let num = Number(document.getElementById('gorjeta').value);
+    alert(num)
+  }
 }
