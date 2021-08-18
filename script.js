@@ -11,8 +11,8 @@ function inserirGorjeta(num){
   let gorjetaPessoa = valorGorjeta / pessoas;
   let resConta = document.getElementById('resConta')
   let resGorjeta = document.getElementById('resGorjeta')
-  resConta.innerHTML = valorPessoa.toFixed(2);
-  resGorjeta.innerHTML = gorjetaPessoa.toFixed(2);
+  resConta.innerHTML = ('R$' + valorPessoa.toFixed(2));
+  resGorjeta.innerHTML = ('R$'+ gorjetaPessoa.toFixed(2));
 }
 
 function inserirGorgetakeydown(){
