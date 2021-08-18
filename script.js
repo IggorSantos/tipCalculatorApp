@@ -2,7 +2,7 @@
 document.getElementById('gorjeta').addEventListener("keypress",inserirGorgetakeydown);
 
 function inserirGorjeta(num){
-  let conta = Number(document.getElementById('conta').value);
+  let conta = parseFloat(document.getElementById('conta').value);
   let pessoas = Number(document.getElementById('pessoas').value);
   let valorGorjeta = conta * (num/100)
   conta += valorGorjeta;
