@@ -5,14 +5,19 @@ document.getElementById('resetar').addEventListener("click",resetar);
 function inserirGorjeta(num){
   let conta = parseFloat(document.getElementById('conta').value);
   let pessoas = Number(document.getElementById('pessoas').value);
-  let valorGorjeta = conta * (num/100)
-  conta += valorGorjeta;
-  let valorPessoa = conta / pessoas;
-  let gorjetaPessoa = valorGorjeta / pessoas;
-  let resConta = document.getElementById('resConta')
-  let resGorjeta = document.getElementById('resGorjeta')
-  resConta.innerHTML = ('R$ ' + valorPessoa.toFixed(2));
-  resGorjeta.innerHTML = ('R$ '+ gorjetaPessoa.toFixed(2));
+  if(isNaN(conta) || isNaN(pessoas)){
+    alert("Preencha os campos")
+  }else{
+    let valorGorjeta = conta * (num/100)
+    conta += valorGorjeta;
+    let valorPessoa = conta / pessoas;
+    let gorjetaPessoa = valorGorjeta / pessoas;
+    let resConta = document.getElementById('resConta')
+    let resGorjeta = document.getElementById('resGorjeta')
+    resConta.innerHTML = ('R$ ' + valorPessoa.toFixed(2));
+    resGorjeta.innerHTML = ('R$ '+ gorjetaPessoa.toFixed(2));
+  }
+
 }
 
 function inserirGorgetakeydown(){
