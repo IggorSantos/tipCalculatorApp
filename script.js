@@ -6,7 +6,8 @@ function inserirGorjeta(num){
   let conta = parseFloat(document.getElementById('conta').value);
   let pessoas = Number(document.getElementById('pessoas').value);
   if(isNaN(conta) || isNaN(pessoas)){
-    alert("Preencha os campos")
+    let erro = document.getElementById('erro')
+    erro.innerHTML = ("Não pode ser zero")
   }else{
     let valorGorjeta = conta * (num/100)
     conta += valorGorjeta;
