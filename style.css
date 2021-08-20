@@ -50,6 +50,9 @@ main .pessoas .titulo{
   display: flex;
   flex-direction: row;
 }
+main .pessoas .titulo .numero{
+  padding-right: 10%;
+}
 main .tips{
   margin: 15% 0;
 }
