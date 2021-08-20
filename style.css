@@ -46,6 +46,10 @@ main .pessoas input{
   border: 1px solid var(--green-color);
   margin-top: 2%;
 }
+main .pessoas .titulo{
+  display: flex;
+  flex-direction: row;
+}
 main .tips{
   margin: 15% 0;
 }
