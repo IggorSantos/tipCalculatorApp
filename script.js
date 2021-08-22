@@ -1,4 +1,3 @@
-//Pegar o valor customizado e resetar os valores quando clicar em resetar
 document.getElementById('gorjeta').addEventListener("keypress",inserirGorgetaKeydown);
 document.getElementById('resetar').addEventListener("click",resetar);
 
@@ -46,5 +45,4 @@ function resetar(){
   let resGorjeta = document.getElementById('resGorjeta')
   resConta.innerHTML = "R$ 0,00"
   resGorjeta.innerHTML = "R$ 0,00"
-  console.log("Funcionou")
 }
