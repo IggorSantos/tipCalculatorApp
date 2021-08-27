@@ -1,18 +1,19 @@
 # Frontend Mentor - Calculadora de gorjeta
 Desafio do site Frontend Mentor: https://www.frontendmentor.io/solutions
 
-## Desafio
-
-- Layout Responsivo
-- Hover nos botões
-- Calcular a gorjeta e o valor da conta por pessoa
-
 ## Screenshots
 ### Versão Web:
 <img src="/images/desktop-design-completed.jpg">
 
 ### Versão Mobile
 <img src="/images/mobile-design.jpg">
+
+## Desafio
+
+- Layout Responsivo
+- Hover nos botões
+- Calcular a gorjeta e o valor da conta por pessoa
+
 
 ## Feito com:
 
